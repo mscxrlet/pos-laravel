@@ -21,7 +21,6 @@
                 <tr>
                     <th>Username</th>
                     <th>Full Name</th>
-                    <th>Role</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,7 +28,6 @@
                     <tr>
                         <td>{{ $user['username'] }}</td>
                         <td>{{ $user['full_name'] }}</td>
-                        <td>{{ $user['role'] }}</td>
                     </tr>
                 @endforeach
             </tbody>
